@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Boda</title>
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Fuentes elegantes -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;600&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+    <div class="logo">🤍</div>
+
+<nav class="menu">
+    <a href="#hero">INICIO</a>
+    <a href="#historia">NUESTRA HISTORIA</a>
+    <a href="#evento">EL EVENTO</a>
+    <a href="#ceremonia">CEREMONIA</a>
+    <a href="#vestimenta">VESTIMENTA</a>
+    <a href="#regalos">REGALOS</a>
+    <a href="#rsvpInvitado">RSVP</a>
+</nav>
+
+<a href="#rsvpInvitado" class="btn-nav">CONFIRMAR ASISTENCIA</a>
+</header>
+
+<!-- HERO / INICIO -->
+<section id="hero" class="hero">
+
+    <div class="overlay"></div>
+
+    <div class="contenido">
+        <p class="subtitulo">NOS COMPLACE INVITARLOS A CELEBRAR</p>
+
+        <h1 class="nombres">Chantal & César</h1>
+
+        <p class="fecha">25 de Junio, 2028</p>
+        <p class="lugar">Ciudad de México, México</p>
+
+        <p class="frase">
+            “El amor no se trata de mirarse el uno al otro, sino de mirar juntos en la misma dirección.”
+        </p>
+
+        <!-- CONTADOR -->
+<div class="container">
+
+    <header>
+        <h1 class="titulo">Nuestra Boda</h1>
+        <p class="subtitulo">Cuenta regresiva para el gran día</p>
+        <div class="contador">
+            <div><span id="dias">0</span> Días</div>
+            <div><span id="horas">0</span> Horas</div>
+            <div><span id="minutos">0</span> Minutos</div>
+            <div><span id="segundos">0</span> Segundos</div>
+        </div>
+    </header>
+		
+
+        <a href="#" class="btn-main">CONFIRMAR ASISTENCIA</a>
+    </div>
+
+</section>
+
+<!-- HISTORIA -->
+<section id="historia" class="historia">
+
+    <p class="subtitulo-historia">DESDE EL PRIMER DÍA</p>
+    <h2 class="titulo-historia">Nuestra Historia</h2>
+
+    <div class="timeline-pro">
+
+        <!-- ITEM 1 -->
+        <div class="timeline-item">
+            <div class="timeline-content">
+
+                <div class="img-box">
+                    <img src="https://images.unsplash.com/photo-1519741497674-611481863552">
+                </div>
+
+                <span>MARZO 2019</span>
+                <h3>El Primer Encuentro</h3>
+                <p>En una tarde sencilla comenzó algo que cambiaría nuestras vidas para siempre.</p>
+            </div>
+        </div>
+
+        <!-- ITEM 2 -->
+        <div class="timeline-item">
+            <div class="timeline-content">
+
+                <div class="img-box">
+                    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e">
+                </div>
+
+                <span>JUNIO 2020</span>
+                <h3>Nuestro Primer Viaje</h3>
+                <p>Descubrimos el mundo juntos… y también que queríamos recorrerlo siempre unidos.</p>
+            </div>
+        </div>
+
+        <!-- ITEM 3 -->
+        <div class="timeline-item">
+            <div class="timeline-content">
+
+                <div class="img-box">
+                    <img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486">
+                </div>
+
+                <span>2026</span>
+                <h3>El Gran Día</h3>
+                <p>Hoy celebramos el inicio de una nueva etapa llena de amor, sueños y futuro.</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<!-- Evento -->
+<section id="evento" class="evento">
+
+    <p class="subtitulo-evento">GUARDA LA FECHA</p>
+    <h2 class="titulo-evento">Detalles del Evento</h2>
+
+    <div class="cards-evento">
+
+        <div class="card-evento reveal">
+            <div class="icono-evento">📅</div>
+            <p class="label">LA FECHA</p>
+            <h3>15 · XII · 2026</h3>
+            <span>Martes 15 de Diciembre</span>
+        </div>
+
+        <div class="card-evento reveal">
+            <div class="icono-evento">⏰</div>
+            <p class="label">EL HORARIO</p>
+            <h3>5:00 PM</h3>
+            <span>Ceremonia · Recepción 8:00 PM</span>
+        </div>
+
+        <div class="card-evento reveal">
+            <div class="icono-evento">📍</div>
+            <p class="label">EL LUGAR</p>
+            <h3>Ciudad de México</h3>
+            <span>Dirección por confirmar</span>
+
+            <a href="https://maps.google.com/?q=Av. Insurgentes Sur 3000 CDMX" target="_blank" class="btn-maps">
+                Ver ubicación
+            </a>
+        </div>
+
+    </div>
+
+    <!-- MAPA -->
+    <div class="mapa reveal">
+        <iframe 
+            src="https://www.google.com/maps?q=Av.%20Insurgentes%20Sur%203000%20CDMX&output=embed"
+            loading="lazy">
+        </iframe>
+    </div>
+
+</section>
+
+
+        <!-- CEREMONIA -->
+<section id="ceremonia" class="ceremonia">
+
+    <p class="subtitulo-ceremonia">MOMENTO ESPECIAL</p>
+    <h2 class="titulo-ceremonia">Ceremonia</h2>
+
+    <div class="contenedor-ceremonia">
+
+        <!-- LUGAR DE LA CEREMONIA -->
+        <div class="card-ceremonia">
+            <div class="imagen-ceremonia">
+                <img src="https://images.unsplash.com/photo-1526378724467-3fce8d5f1b9c" alt="Iglesia">
+                <div class="overlay-img"></div>
+                <h3>Iglesia Santa María</h3>
+            </div>
+            <div class="info">
+                <div class="detalles">
+                    <div class="icono"></div>
+                    <p>Hora: 16:00 hrs</p>
+                </div>
+                <div class="detalles">
+                    <div class="icono"></div>
+                    <p>Dirección: Av. Central 123, Ciudad</p>
+                </div>
+                <a href="https://www.google.com/maps?q=Av.+Central+123,+Ciudad" target="_blank" class="btn-mapa">Ver Ubicación</a>
+            </div>
+        </div>
+
+        <!-- SALÓN DE RECEPCIÓN -->
+        <div class="card-ceremonia">
+            <div class="imagen-ceremonia">
+                <img src="https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba" alt="Salón">
+                <div class="overlay-img"></div>
+                <h3>Salón Gran Evento</h3>
+            </div>
+            <div class="info">
+                <div class="detalles">
+                    <div class="icono"></div>
+                    <p>Hora: 18:00 hrs</p>
+                </div>
+                <div class="detalles">
+                    <div class="icono"></div>
+                    <p>Dirección: Blvd. Principal 456, Ciudad</p>
+                </div>
+                <a href="https://www.google.com/maps?q=Blvd.+Principal+456,+Ciudad" target="_blank" class="btn-mapa">Ver Ubicación</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- VESTIMENTA -->
+<section id="vestimenta" class="vestimenta">
+
+    <p class="subtitulo-vestimenta">LUCE ESPLÉNDIDO</p>
+    <h2 class="titulo-vestimenta">Código de Vestimenta</h2>
+
+    <div class="tipo-vestimenta">FORMAL / ETIQUETA</div>
+
+    <div class="contenedor-vestimenta">
+
+        <!-- CABALLEROS -->
+        <div class="card-vestimenta">
+            <h3>Caballeros</h3>
+
+            <ul>
+                <li>Traje de etiqueta o smoking</li>
+                <li>Corbata o moño</li>
+                <li>Camisa en tonos claros</li>
+                <li>Zapatos formales</li>
+            </ul>
+
+            <div class="mini-colores">
+                <span style="background:#bfae98;"></span>
+                <span style="background:#7f9276;"></span>
+                <span style="background:#c8a97e;"></span>
+            </div>
+        </div>
+
+        <!-- DAMAS -->
+        <div class="card-vestimenta">
+            <h3>Damas</h3>
+
+            <ul>
+                <li>Vestido largo o cóctel</li>
+                <li>Tacones o flats elegantes</li>
+                <li>Joyería discreta</li>
+            </ul>
+
+            <div class="mini-colores">
+                <span style="background:#e8dccb;"></span>
+                <span style="background:#d6c3c0;"></span>
+                <span style="background:#a8b5a2;"></span>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- 🔥 PALETA GRANDE Y VISIBLE -->
+    <div class="paleta-pro">
+
+        <p>PALETA DE COLORES SUGERIDA</p>
+
+        <div class="colores-pro">
+
+            <div class="color-item">
+                <span style="background:#e8dccb;"></span>
+                <p>Nude / Crema</p>
+            </div>
+
+            <div class="color-item">
+                <span style="background:#c8a97e;"></span>
+                <p>Dorado suave</p>
+            </div>
+
+            <div class="color-item">
+                <span style="background:#a8b5a2;"></span>
+                <p>Verde salvia</p>
+            </div>
+
+            <div class="color-item">
+                <span style="background:#d6c3c0;"></span>
+                <p>Rosa polvo</p>
+            </div>
+
+            <div class="color-item">
+                <span style="background:#bfae98;"></span>
+                <p>Champagne</p>
+            </div>
+
+            <div class="color-item">
+                <span style="background:#7f9276;"></span>
+                <p>Verde elegante</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- REGALOS -->
+<section id="regalos" class="regalos">
+
+    <p class="subtitulo-regalos">CON CARIÑO</p>
+    <h2 class="titulo-regalos">Mesa de Regalos</h2>
+
+    <p class="texto-regalos">
+        Tu presencia es nuestro mejor regalo, pero si deseas tener un detalle con nosotros,
+        puedes elegir alguna de las siguientes opciones.
+    </p>
+
+    <div class="opciones-regalo">
+
+        <div class="card-regalo">
+            <h3>🎁 Lista de Regalos</h3>
+            <p>Muy pronto compartiremos nuestra lista en tienda para que puedas elegir fácilmente.</p>
+        </div>
+
+        <div class="card-regalo">
+            <h3>💳 Transferencia</h3>
+            <p>Si prefieres, puedes apoyarnos con transferencia. Los datos estarán disponibles pronto.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- GALERÍA -->
+<section id="galeria" class="galeria">
+
+    <p class="subtitulo-galeria">NUESTROS MOMENTOS</p>
+    <h2 class="titulo-galeria">Galería</h2>
+
+    <div class="carousel">
+
+        <button class="btn prev">&#10094;</button>
+
+        <div class="carousel-track">
+            <img src="https://images.unsplash.com/photo-1519741497674-611481863552">
+            <img src="https://images.unsplash.com/photo-1520854221256-17451cc331bf">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb">
+            <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc">
+        </div>
+
+        <button class="btn next">&#10095;</button>
+
+    </div>
+
+</section>
+
+<!-- RSVP -->
+<!-- PANEL DE ADMINISTRACIÓN -->
+<section id="rsvpAdmin">
+  <h2>Agregar Invitado Principal <span class="add-btn" id="btnAgregar">+</span></h2>
+  <form id="formAdmin">
+    <input type="text" placeholder="Nombre del invitado principal" required>
+	<input type="text" id="telefonoInvitado" placeholder="Número WhatsApp (ej: 6566028715)" required>
+<button type="submit" id="btnAgregarInvitado">Agregar Invitado</button>
+  </form>
+</section>
+
+<!-- ESTADÍSTICAS -->
+ <section class="stats">
+        <div class="card total"><h3>Total</h3><span class="total">0</span></div>
+        <div class="card asistira"><h3>Asistirá</h3><span class="asistira-count">0</span></div>
+        <div class="card pendiente"><h3>Pendiente</h3><span class="pendiente-count">0</span></div>
+        <div class="card noasistira"><h3>No asistirá</h3><span class="noasistira-count">0</span></div>
+    </section>
+
+<!-- LISTA DE INVITADOS -->
+<section id="invitados" class="invitados">
+  <h2>Lista de Invitados</h2>
+  <input type="text" id="buscar" placeholder="Buscar invitado...">
+  <ul id="listaInvitados"></ul>
+  <button id="exportarExcel">Exportar a Excel</button>
+</section>
+
+<!-- FORMULARIO INVITADO -->
+<section class="formularios">
+        <form id="formAdmin">
+            <h2>Agregar Invitado (Admin)</h2>
+            <input type="text" name="nombre" placeholder="Nombre completo">
+            <input type="text" name="telefono" placeholder="WhatsApp">
+            <button type="submit">Agregar & Enviar Link</button>
+        </form>
+
+        <form id="formRSVP">
+            <h2>Confirmar Asistencia</h2>
+            <input type="text" name="nombre" placeholder="Nombre completo">
+            <input type="number" name="numAcompanantes" placeholder="Número de acompañantes">
+            <input type="text" name="nombresAcompanantes" placeholder="Nombres de acompañantes">
+            <select name="asistencia">
+                <option value="">Selecciona asistencia</option>
+                <option value="Asistirá">Asistirá</option>
+                <option value="Pendiente">Pendiente</option>
+                <option value="No asistirá">No asistirá</option>
+            </select>
+            <button type="submit">Enviar RSVP</button>
+        </form>
+    </section>
+	
+<div class="stats" style="max-width:600px;margin:auto;">
+    <span class="total"></span> |
+    <span class="asistira-count"></span> |
+    <span class="pendiente-count"></span> |
+    <span class="noasistira-count"></span>
+</div>
+
+<!-- CONTACTO -->
+<section id="contacto" class="contacto">
+    <p class="subtitulo-contacto">CONTACTO</p>
+    <h2 class="titulo-contacto">¿Necesitas Ayuda?</h2>
+    <div class="info-contacto">
+        <p>Teléfono: <a href="tel:+526566028715">656-602-8715</a></p>
+        <p>Email: <a href="mailto:gae7delg6@gamil.com">gae7delg6@gamil.com</a></p>
+        <p>WhatsApp: <a href="https://wa.me/526566028715" target="_blank">Enviar mensaje</a></p>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Nuestra Boda</p>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
